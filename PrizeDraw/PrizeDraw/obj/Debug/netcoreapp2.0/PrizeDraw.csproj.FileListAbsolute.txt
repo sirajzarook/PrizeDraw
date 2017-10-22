@@ -1,0 +1,11 @@
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\bin\Debug\netcoreapp2.0\PrizeDraw.deps.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\bin\Debug\netcoreapp2.0\PrizeDraw.runtimeconfig.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\bin\Debug\netcoreapp2.0\PrizeDraw.runtimeconfig.dev.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\bin\Debug\netcoreapp2.0\PrizeDraw.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\bin\Debug\netcoreapp2.0\PrizeDraw.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.csprojResolveAssemblyReference.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.csproj.CoreCompileInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.AssemblyInfoInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.AssemblyInfo.cs
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw\obj\Debug\netcoreapp2.0\PrizeDraw.pdb

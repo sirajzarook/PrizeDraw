@@ -1,0 +1,16 @@
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.Tests.deps.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.Tests.runtimeconfig.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.Tests.runtimeconfig.dev.json
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.Tests.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.Tests.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\bin\Debug\netcoreapp2.0\PrizeDraw.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.csprojResolveAssemblyReference.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.csproj.CoreCompileInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.AssemblyInfoInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.AssemblyInfo.cs
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\PrizeDraw\PrizeDraw.Tests\obj\Debug\netcoreapp2.0\PrizeDraw.Tests.pdb
