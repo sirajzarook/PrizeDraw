@@ -1,0 +1,6 @@
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\obj\Debug\PrizeDraw.csproj.CoreCompileInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\bin\Debug\PrizeDraw.exe.config
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\bin\Debug\PrizeDraw.exe
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\bin\Debug\PrizeDraw.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\obj\Debug\PrizeDraw.exe
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw\obj\Debug\PrizeDraw.pdb

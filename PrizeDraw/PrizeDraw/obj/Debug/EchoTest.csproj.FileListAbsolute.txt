@@ -1,0 +1,7 @@
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\bin\Debug\EchoTest.exe.config
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\bin\Debug\EchoTest.exe
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\bin\Debug\EchoTest.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\obj\Debug\EchoTest.csprojResolveAssemblyReference.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\obj\Debug\EchoTest.csproj.CoreCompileInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\obj\Debug\EchoTest.exe
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\EchoTest\EchoTest\obj\Debug\EchoTest.pdb

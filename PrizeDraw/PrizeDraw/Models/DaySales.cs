@@ -4,8 +4,8 @@ using System.Text;
 
 namespace PrizeDraw.Models
 {
-    public class DaySales
-    {
+	public class DaySales
+	{
 		//public int Day { get; set; }
 		public List<int> Orders { get; set; }
 

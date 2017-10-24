@@ -5,8 +5,8 @@ using System.Text;
 
 namespace PrizeDraw.Mock
 {
-    public class SalesMock
-    {
+	public class SalesMock
+	{
 		public static List<DaySales> getMockSales()
 
 		{
@@ -32,5 +32,5 @@ namespace PrizeDraw.Mock
 			return DaySales;
 
 		}
-    }
+	}
 }

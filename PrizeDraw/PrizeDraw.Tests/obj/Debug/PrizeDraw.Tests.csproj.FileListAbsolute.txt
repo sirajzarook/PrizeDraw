@@ -1,0 +1,16 @@
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\PrizeDraw.Tests.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\PrizeDraw.Tests.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\PrizeDraw.exe
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\PrizeDraw.pdb
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\PrizeDraw.exe.config
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\obj\Debug\PrizeDraw.Tests.csprojResolveAssemblyReference.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\obj\Debug\PrizeDraw.Tests.csproj.CoreCompileInputs.cache
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\obj\Debug\PrizeDraw.Tests.dll
+C:\Users\siraj.zarook\Documents\Visual Studio 2017\Projects\MyProjects\PrizeDraw\PrizeDraw.Tests\obj\Debug\PrizeDraw.Tests.pdb

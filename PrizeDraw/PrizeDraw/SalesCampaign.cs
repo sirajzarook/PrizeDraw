@@ -7,11 +7,12 @@ using System.Linq;
 
 namespace PrizeDraw
 {
-	public class SalesCampaign : ISalesCampaign
+	public class SalesCampaign : ISalesCampaign 
 	{
-		private static readonly int campaignLength = 5000;
+		private static readonly int MaxCampaignLength = 5000;
+		private static readonly int MaxSlaesAmount = 1000000;
 		public List<int> OrdersToDraw { get; set; }
-		private int TotalMoneyPrize { get; set; } 
+		private int TotalMoneyPrize { get; set; }
 
 		public SalesCampaign(IList<DaySales> daySalesList)
 		{
@@ -31,7 +32,7 @@ namespace PrizeDraw
 
 		public static bool CampaignLengthCheck(int length)
 		{
-			return campaignLength > length;
+			return MaxCampaignLength > length;
 		}
 		public int GetTotalPrizeMoney()
 		{
@@ -40,86 +41,59 @@ namespace PrizeDraw
 
 		public void RemoveCurrentHighAndLow()
 		{
-			OrdersToDraw.Remove(OrdersToDraw.Max());
-			OrdersToDraw.Remove(OrdersToDraw.Min());
+			if (OrdersToDraw.Count() > 0)
+				OrdersToDraw.Remove(OrdersToDraw.Max());
+			if (OrdersToDraw.Count() > 0)
+				OrdersToDraw.Remove(OrdersToDraw.Min());
 		}
 
-		public static List<DaySales> PrepareInputFile(string fileName)
+		public static List<DaySales> PrepareSalesData(string[] lines)
 		{
 			List<DaySales> DaySalesList = new List<DaySales>();
-			string[] lines = { "" };
-			try
-			{
-				lines = System.IO.File.ReadAllLines(fileName);
-			}
-			catch (System.IO.FileNotFoundException)
-			{
-				Console.WriteLine("Fle not found {0}", fileName);
-				throw new System.IO.FileNotFoundException();
-			}
-			catch (Exception)
-			{
-				Console.WriteLine("Unexpected error {0}", fileName);
-				throw new Exception();
-			}
+			//string[] lines = { "" };
 			int lineNum = 1;
 			foreach (string line in lines)
 			{
-				try
+				line.Trim();
+				if (lineNum == 1)
 				{
-					line.Trim();
-					if (lineNum == 1)
+					int camLength = Convert.ToInt32(line.Trim());
+					if (!SalesCampaign.CampaignLengthCheck(camLength))
 					{
-						int camLength = Convert.ToInt32(line.Trim());
-						if (!SalesCampaign.CampaignLengthCheck(camLength))
-						{
-								Console.WriteLine("Campaign lenght not valid {0}", fileName);
-								throw new System.FormatException();
-						};
-						if (Convert.ToInt32(line.Trim()) != lines.Length - 1)
-						{
-							Console.WriteLine("Corrupt Input File {0}", fileName);
-							throw new System.FormatException();
-							//return null;
-						}
-						++lineNum;
-						continue;
-					}
-					var SalesSplit = line.Trim().Split(" ");
+						Console.WriteLine("Campaign lenght not valid");
+						//throw new System.FormatException();
+					};
 
-					if (Convert.ToInt32(SalesSplit[0]) != SalesSplit.Length - 1)
+					if (Convert.ToInt32(line.Trim()) != lines.Length - 1)
+
 					{
-						Console.WriteLine("Corrupt Input File {0}", fileName);
-						throw new System.FormatException();
-
+						Console.WriteLine("Corrupt input in sales data : {0}", lines);
+						//throw new System.FormatException();
 						//return null;
-					}
 
-					SalesSplit = SalesSplit.Skip(1).ToArray();
-					var daySale = new DaySales();
-					foreach (var sale in SalesSplit)
-					{
-						
-						daySale.Orders.AddRange(sale.Split(',').Select(Int32.Parse).ToList());
-						if(daySale.Orders.Where(t => t <= 1000000).Count() == 0)
-							throw new System.FormatException();//TODO check if the sales are below 1000000
 					}
-					DaySalesList.Add(daySale);
+					++lineNum;
+					continue;
+
 				}
-				catch (System.FormatException)
+				var SalesSplit = line.Trim().Split(new char[0]);
+
+				SalesSplit = SalesSplit.Skip(1).ToArray();
+				var daySale = new DaySales();
+				foreach (var sale in SalesSplit)
 				{
-					Console.WriteLine("Fle not found {0}", fileName);
-					throw new System.FormatException(); //TODO Error logging handling
+
+					daySale.Orders.AddRange(sale.Split(',').Select(Int32.Parse).ToList());
+					if (daySale.Orders.Where(t => t <= MaxSlaesAmount).Count() == 0)
+						Console.WriteLine("Corrupt input in sales data as each sale should be below 1000000");
+					//throw new System.FormatException();//TODO check if the sales are below 1000000
 				}
-				catch (Exception)
-				{
-					Console.WriteLine("Corrupt Input File {0}", fileName);
-					throw new System.FormatException(); ////TODO Error logging handling
-				}
+				DaySalesList.Add(daySale);
+				
 
 			}
-
 			return DaySalesList;
 		}
+
 	}
 }
